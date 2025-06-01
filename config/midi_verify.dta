@@ -62,13 +62,24 @@
 #define BAND_COMMON_MUSICIAN_EVENTS
 (idle_realtime idle idle_intense play mellow intense)
 #define BAND_BASS_EVENTS
-(BAND_COMMON_MUSICIAN_EVENTS play_solo)
+(
+   BAND_COMMON_MUSICIAN_EVENTS
+   play_solo
+   ld_range_shift ; YARG 5L Lane Shift
+)
 #define BAND_DRUM_EVENTS
 (BAND_COMMON_MUSICIAN_EVENTS)
 #define BAND_GUITAR_EVENTS
-(BAND_COMMON_MUSICIAN_EVENTS play_solo)
+(
+   BAND_COMMON_MUSICIAN_EVENTS
+   play_solo
+   ld_range_shift ; YARG 5L Lane Shift
+)
 #define BAND_KEYBOARD_EVENTS
-(BAND_COMMON_MUSICIAN_EVENTS)
+(
+   BAND_COMMON_MUSICIAN_EVENTS
+   ld_range_shift ; YARG 5L Lane Shift
+)
 #define BAND_MIC_EVENTS
 (BAND_COMMON_MUSICIAN_EVENTS tambourine_start tambourine_end cowbell_start cowbell_end clap_start clap_end)
 #define BAND_CROWD_EVENTS
