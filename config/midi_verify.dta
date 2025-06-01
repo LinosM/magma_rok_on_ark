@@ -116,6 +116,7 @@
          crowd_noclap
          crowd_clap
          BAND_CROWD_EVENTS
+         section ; - allows for custom practice sections
          #include practice_sections.dta)
       (last end)
       (check_init
