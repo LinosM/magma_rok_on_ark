@@ -29,7 +29,7 @@
    {if
       {find_elem $list $mv.val}
       {if
-         {< $mv.start 1.8}
+         {&& {< $mv.start 1.8} {! {== $mv.val ld_range_shift}}} ; allow YARG 5L Range Shift Markers to start at 1.1.00
          {notify
             "("
             $mv.track
