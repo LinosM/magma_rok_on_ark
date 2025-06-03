@@ -627,7 +627,7 @@
 #define FREE_DIRCUTS
 (directed_bass_cls directed_guitar_cls directed_drums_lt directed_drums_kd directed_all_lt directed_crowd)
 #define MAX_DIRCUTS
-(19)
+(50)
 #define FACIAL_MESHES
 (("eye-L.mesh"
       "eye-R.mesh"
